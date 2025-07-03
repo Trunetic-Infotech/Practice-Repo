@@ -17,9 +17,9 @@ async function callAgent() {
       ],
       model: "llama-3.3-70b-versatile",
     })
-    // .then((chatCompletion) => {
-    //   console.log(chatCompletion.choices[0]?.message?.content || "");
-    // });
+    .then((chatCompletion) => {
+      console.log(chatCompletion.choices[0]?.message?.content || "");
+    });
 
     console.log(completion);
     
