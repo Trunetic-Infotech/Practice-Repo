@@ -1,0 +1,15 @@
+{
+  "name": "first-agent",
+  "version": "1.0.0",
+  "main": "agent.js",
+  "scripts": {
+    "dev": "node agent.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "groq-sdk": "^0.25.0"
+  }
+}
